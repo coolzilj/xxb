@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var log = require('npmlog');
+var xxb = require('../lib/xxb');
+
+var config = require("../config.json");
+
+log.info("", "xxb is running. Press Ctrl+C to stop");
+
+fs.readFile(process.env.HOME + '/.xxb', function(error, data) {
+    if (!error) {
+        config = JSON.parse(data);
+    } else {
+        log.warn("", "Can't read ~/.xxb file, using default configuration");
+    }
+
+    xxb(config);
+});
