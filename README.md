@@ -32,6 +32,10 @@ Example configuration:
 }
 ````
 
+### Changelog
+- 0.0.2 sort table by price desc https://github.com/coolzilj/xxb/pull/3
+- 0.0.1 hello xxb.
+
 ### Contributing
 - Fork this repo
 - Clone your repo
