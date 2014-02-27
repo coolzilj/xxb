@@ -33,8 +33,9 @@ Example configuration:
 ````
 
 ### Changelog
+- 0.0.3 add "广发天天红基金" to default config https://github.com/coolzilj/xxb/pull/5
 - 0.0.2 sort table by price desc https://github.com/coolzilj/xxb/pull/3
-- 0.0.1 hello xxb.
+- 0.0.1 hello xxb
 
 ### Contributing
 - Fork this repo
