@@ -33,9 +33,10 @@ Example configuration:
 ````
 
 ### Changelog
-- 0.0.3 add "广发天天红基金" to default config https://github.com/coolzilj/xxb/pull/5
-- 0.0.2 sort table by price desc https://github.com/coolzilj/xxb/pull/3
-- 0.0.1 hello xxb
+- 0.0.4 Respect http_proxy & https_proxy environment variable. https://github.com/coolzilj/xxb/pull/6
+- 0.0.3 Add "广发天天红基金" to default config. https://github.com/coolzilj/xxb/pull/5
+- 0.0.2 Sort table by price desc. https://github.com/coolzilj/xxb/pull/3
+- 0.0.1 Hello xxb.
 
 ### Contributing
 - Fork this repo
@@ -47,4 +48,4 @@ Example configuration:
 - Open a pull request, and enjoy <3
 
 ---
-Handmade by [Liu Jin](https://github.com/coolzilj)
+Handcraft by [Liu Jin](https://github.com/coolzilj)
