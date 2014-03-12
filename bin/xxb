@@ -12,7 +12,7 @@ fs.readFile(process.env.HOME + '/.xxb', function(error, data) {
     if (!error) {
         config = JSON.parse(data);
     } else {
-        log.warn("", "Can't read ~/.xxb file, using default configuration");
+        log.warn("", "Can't find ~/.xxb file, using default configuration");
     }
 
     xxb(config);
