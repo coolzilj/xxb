@@ -33,9 +33,10 @@ Example configuration:
 ````
 
 ### Changelog
-- 0.0.4 Respect http_proxy & https_proxy environment variable. https://github.com/coolzilj/xxb/pull/6
-- 0.0.3 Add "广发天天红基金" to default config. https://github.com/coolzilj/xxb/pull/5
-- 0.0.2 Sort table by price desc. https://github.com/coolzilj/xxb/pull/3
+- 1.0.0 Update default config, fix homepath on windows. [#7](https://github.com/coolzilj/xxb/pull/7) [#8](https://github.com/coolzilj/xxb/pull/8)
+- 0.0.4 Respect http_proxy & https_proxy environment variable. [#6](https://github.com/coolzilj/xxb/pull/6)
+- 0.0.3 Add "广发天天红基金" to default config. [#5](https://github.com/coolzilj/xxb/pull/5)
+- 0.0.2 Sort table by price desc. [#3](https://github.com/coolzilj/xxb/pull/3)
 - 0.0.1 Hello xxb.
 
 ### Contributing
