@@ -9,14 +9,13 @@ var config = require("../config.json");
 
 log.info("", "xxb is running. Press Ctrl+C to stop");
 
-//添加xxb默认配置路径的判断
 var home;
+
 if (process.platform == 'win32'){
     home = path.join(process.env.USERPROFILE, '.xxb');
 } else {
     home = path.join(process.env.HOME, '.xxb')
 }
-//console.log('home', home);
 
 fs.readFile(home, function(error, data) {
     if (!error) {
