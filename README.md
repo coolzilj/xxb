@@ -33,6 +33,7 @@ Example configuration:
 ````
 
 ### Changelog
+- 1.0.1 fix: source update for "7日年化收益率". [#10](https://github.com/coolzilj/xxb/pull/10)
 - 1.0.0 Update default config, fix homepath on windows. [#7](https://github.com/coolzilj/xxb/pull/7) [#8](https://github.com/coolzilj/xxb/pull/8)
 - 0.0.4 Respect http_proxy & https_proxy environment variable. [#6](https://github.com/coolzilj/xxb/pull/6)
 - 0.0.3 Add "广发天天红基金" to default config. [#5](https://github.com/coolzilj/xxb/pull/5)

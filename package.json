@@ -1,6 +1,6 @@
 {
     "name": "xxb",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A commandline-tool to check the fund income",
     "main": "index.js",
     "preferGlobal": "true",
